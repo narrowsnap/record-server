@@ -13,8 +13,7 @@ const RecordSchema = new Schema({
     },
     date: [
         {
-            start: Date,
-            end: Date
+            type: String
         }
     ],
     continued: {
